@@ -83,12 +83,12 @@ export default function Home() {
 
   return (
     <div onMouseMove={onMouseMove} className="window">
-      <div
-        style={{
-          padding: 24,
-        }}
-      >
-        Hello! This demo works better with friends. Share the link with someone!
+      <div className="hero">
+        <h1>Hello! :)</h1>
+        <p>
+          This demo works better with friends. Share{" "}
+          <a href="https://cursors.vercel.app">the link</a> with someone!
+        </p>
       </div>
       {values.map(([guest, pos]) => {
         if (guest === me) return;
