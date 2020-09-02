@@ -89,6 +89,7 @@ export default function Home() {
           This demo works better with friends. Share{" "}
           <a href="https://cursors.vercel.app">the link</a> with someone!
         </p>
+        <p>(Note: your phone doesn't have a mouse)</p>
       </div>
       {values.map(([guest, pos]) => {
         if (guest === me) return;
